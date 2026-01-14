@@ -1,13 +1,23 @@
 export default function Hero() {
   return (
-    <div className="container-page py-32 grid md:grid-cols-2 gap-12 items-center">
-      <div>
-        <h1 className="h1 mb-4">Rafał Kubowicz</h1>
-        <p className="lead">Lider Konfederacji w Szczecinie</p>
-      </div>
+    <div className="container-page py-24 md:py-32">
+      <div className="grid items-center gap-12 md:grid-cols-2">
+        {/* Text */}
+        <div>
+          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
+            Rafał Kubowicz
+          </h1>
 
-      <div className="h-80 bg-gray-200 rounded-lg" />
+          <p className="mt-4 text-lg text-gray-600">
+            Przewodniczący Nowej Nadziei w Szczecinie
+          </p>
+        </div>
+
+        <div className="relative">
+          <div className="aspect-3/4 w-full overflow-hidden rounded-lg bg-gray-200">
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
-
