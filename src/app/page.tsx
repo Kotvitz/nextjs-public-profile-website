@@ -16,19 +16,19 @@ export default function HomePage() {
           <Hero />
         </section>
 
-        <section id="about" className="py-24">
+        <section id="about" className="scroll-mt py-24">
           <About />
         </section>
 
-        <section id="program" className="py-24 bg-gray-50">
+        <section id="program" className="scroll-mt py-24 bg-gray-50">
           <Program />
         </section>
 
-        <section id="activities" className="py-24">
+        <section id="activities" className="scroll-mt py-24">
           <Activities />
         </section>
 
-        <section id="contact" className="py-24 bg-gray-50">
+        <section id="contact" className="scroll-mt py-24 bg-gray-50">
           <Contact />
         </section>
       </main>
