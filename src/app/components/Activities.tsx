@@ -129,9 +129,6 @@ export default function Activities() {
           </button>
         </div>
 
-        <div className="mt-4 text-sm text-gray-600">
-          {index + 1}–{Math.min(index + 3, items.length)} / {items.length}
-        </div>
       </div>
 
       {lightboxOpen && lightboxIndex !== null && (
