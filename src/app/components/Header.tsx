@@ -71,9 +71,13 @@ export default function Header() {
             onNavClick("#home");
           }}
           className="flex items-center gap-2 font-semibold tracking-tight"
-          aria-label="Go to home section"
+          aria-label="Strona główna"
         >
-          <span className="text-base">Full Name</span>
+          <img
+            src="/logo-nowa-nadzieja.svg"
+            alt="Nowa Nadzieja"
+            className="h-10 w-auto"
+          />
         </a>
 
         <nav className="hidden items-center gap-6 md:flex" aria-label="Primary">
@@ -85,7 +89,7 @@ export default function Header() {
                 e.preventDefault();
                 onNavClick(item.href);
               }}
-              className="text-sm text-gray-700 hover:text-gray-900"
+              className="nav-link text-sm font-bold"
             >
               {item.label}
             </a>
@@ -95,7 +99,7 @@ export default function Header() {
         <button
           ref={buttonRef}
           type="button"
-          className="inline-flex cursor-pointer items-center justify-center rounded-md border p-2 hover:bg-gray-50 md:hidden"
+          className="btn-outline inline-flex cursor-pointer items-center justify-center rounded-md border p-2 hover:bg-gray-50 md:hidden"
           aria-label={mobileOpen ? "Close menu" : "Open menu"}
           aria-expanded={mobileOpen}
           aria-controls="mobile-nav"
@@ -157,7 +161,7 @@ export default function Header() {
                         e.preventDefault();
                         onNavClick(item.href);
                       }}
-                      className="block rounded-md px-2 py-2 text-sm text-gray-700 hover:bg-gray-50 hover:text-gray-900"
+                      className="nav-link font-bold block w-full px-2 py-2 text-sm"
                     >
                       {item.label}
                     </a>
