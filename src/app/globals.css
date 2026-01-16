@@ -60,6 +60,15 @@
     background-color: rgba(var(--brand-primary-rgb) / 0.85);
   }
 
+  .section-muted {
+    background-color: var(--surface-muted);
+  }
+
+  .panel {
+    border: 1px solid var(--border);
+    background: var(--surface);
+  }
+
   .btn-submit {
     background-color: var(--brand-accent);
     color: var(--brand-primary);
