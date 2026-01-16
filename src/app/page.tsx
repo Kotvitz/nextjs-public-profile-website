@@ -16,7 +16,7 @@ export default function HomePage() {
           <Hero />
         </section>
 
-        <section id="about" className="scroll-mt py-24">
+        <section id="about" className="scroll-mt">
           <About />
         </section>
 
